@@ -65,7 +65,7 @@ do
     "--key") shift; API_KEY="$1"; shift; ;;
     "--success") DISPLAY_ICON=$(echo -e "\U2705"); shift; ;;
     "--warning") DISPLAY_ICON=$(echo -e "\U26A0"); shift; ;;
-    "--error") DISPLAY_ICON=$(echo -e "\U1F6A8"); shift; ;;
+    "--error") DISPLAY_ICON=$(echo -e "\U1F198"); shift; ;;
     "--question") DISPLAY_ICON=$(echo -e "\U2753"); shift; ;;
     "--icon") shift; DISPLAY_ICON=$(echo -e "\U$1"); shift; ;;
     *) shift; ;;
